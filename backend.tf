@@ -1,6 +1,6 @@
 terraform {
   backend "gcs" {
-    bucket = "tim-home-tfstate"
-    credentials = "./creds/serviceaccount.json"
+    bucket = "first-torus-300007-tfstate"
+    credentials = "./creds/service-account.json"
   }
 }
